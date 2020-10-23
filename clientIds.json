@@ -1,0 +1,25 @@
+{
+    "Discord-RPC-Interface": {
+        "id": "767853186144403476",
+        "RPA": ["discordvs","discord"]
+    },
+
+    "Spotify": {
+    "id": "769196362126196768",
+     "RPA": ["spotify"]
+    },
+
+    "Visual-Studio-Code": {
+        "id": "769196655676882944",
+        "RPA": ["js","vscode"]
+    },
+
+    "AFK": {
+        "id": "769203186501943376",
+        "RPA": ["afk-removebg", "afk"]
+    },
+    "CC": {
+        "id": "769222275052077056",
+        "RPA": ["cc"]
+    }
+}
