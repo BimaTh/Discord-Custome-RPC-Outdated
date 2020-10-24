@@ -1,4 +1,8 @@
 {
+    "Application Name": {
+        "id": "Application ID",
+        "RPA": ["Application Assets"]
+    },
     "Discord-RPC-Interface": {
         "id": "767853186144403476",
         "RPA": ["discordvs","discord"]
@@ -21,5 +25,9 @@
     "CC": {
         "id": "769222275052077056",
         "RPA": ["cc"]
+    },
+    "minecraft": {
+        "id": "769585025510277120",
+        "RPA": ["minecraft","minecraft2"]
     }
 }

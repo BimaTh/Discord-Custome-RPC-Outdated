@@ -1,0 +1,27 @@
+const { Client } = require('discord-rpc');
+const clientids = require('../clientIds.json');
+
+const rpc = new Client({
+    transport: "ipc"
+});
+
+module.exports = class filename {
+    
+    constructor() {
+        rpc.on('ready', () => {
+            rpc.setActivity({
+                state: "",
+                details: "",
+                startTimestamp: new Date(),
+                largeImageKey:"",
+                largeIconText: "",
+                smallImageKey: "",
+                smallIconText: ""
+            });
+            console.log(`\n RPC status: running. Authed for user: ${rpc.user.username}.`); 
+        });
+        rpc.login({
+            clientId: clientids.applicationname.id
+        })
+    }
+}
