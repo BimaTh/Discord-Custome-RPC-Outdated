@@ -9,8 +9,8 @@
     },
 
     "Spotify": {
-    "id": "769196362126196768",
-     "RPA": ["spotify"]
+        "id": "769196362126196768",
+        "RPA": ["spotify"]
     },
 
     "Visual-Studio-Code": {
